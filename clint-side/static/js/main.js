@@ -18,6 +18,9 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
     }
 
+
+    // 
+
     canvasContext = previewCanvas.getContext('2d');
 });
 
