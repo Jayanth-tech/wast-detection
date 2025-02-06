@@ -1,5 +1,5 @@
 // Constants
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://waste-detection.azurewebsites.net/';
 
 // DOM Elements
 const fileInput = document.getElementById('file-input');
