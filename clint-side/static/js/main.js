@@ -42,7 +42,8 @@ function initializeWebSocket() {
         ws.close();
     }
 
-    ws = new WebSocket('ws://localhost:8000/ws');
+ ws = new WebSocket('wss://waste-detection.azurewebsites.net/ws');
+
     
     ws.onopen = () => {
         console.log('WebSocket connection established');
