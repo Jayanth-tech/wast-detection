@@ -47,7 +47,7 @@ function initializeWebSocket() {
 
 
     
- ws = new WebSocket('ws://waste-detection.azurewebsites.net/ws');
+ ws = new WebSocket('https://waste-detection.azurewebsites.net/ws');
 
     
     ws.onopen = () => {
